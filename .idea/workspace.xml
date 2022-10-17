@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f98355c-ac49-419a-bc02-bd67a03ad7c5" name="Changes" comment="RotateArray didn't solve">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="9f98355c-ac49-419a-bc02-bd67a03ad7c5" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/LeetCode/TopInterviewQuestions/RemoveDuplicateFromSortedArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +42,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacterInString">
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.FirstUniqueCharacterInString" />
+  <component name="RunManager" selected="Application.LongestPrefix">
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.GFG" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.ReverseInteger" />
+    <configuration name="ImplementStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.ImplementStr" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.ReverseString" />
+    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.LongestPrefix" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Arrays.RotateImage" />
+    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.MyAtoi" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.TopInterviewQuestions.Arrays.*" />
+          <option name="PATTERN" value="LeetCode.TopInterviewQuestions.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Arrays.TwoSum" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopInterviewQuestions.Strings.ValidPalindrome" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.TopInterviewQuestions.Arrays.*" />
+          <option name="PATTERN" value="LeetCode.TopInterviewQuestions.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstUniqueCharacterInString" />
-        <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.LongestPrefix" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.ImplementStr" />
+        <item itemvalue="Application.MyAtoi" />
+        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664278760986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1665727406481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665727406481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +188,8 @@
     <MESSAGE value="RemoveDuplicateFromSortedArray is solved with two pointers method" />
     <MESSAGE value="BestTimeToBuyAndSellStock is solved with two pointers method" />
     <MESSAGE value="RotateArray didn't solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="RotateArray didn't solve" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -284,14 +290,34 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/FirstUniqueCharacterInString.java</url>
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/ValidPalindrome.java</url>
           <line>8</line>
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/FirstUniqueCharacterInString.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="58" />
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/ValidPalindrome.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/ValidPalindrome.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/ValidPalindrome.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/ImplementStr.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Algorithms/src/LeetCode/TopInterviewQuestions/Strings/LongestPrefix.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../Algorithms/src/learningPackage/sorting/QuickSort.java</url>
